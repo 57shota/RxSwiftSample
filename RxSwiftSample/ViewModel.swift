@@ -9,6 +9,7 @@
 import UIKit
 import RxSwift
 
+
 final class ViewModel {
     let validationText: Observable<String>
     let loadLabelColor: Observable<UIColor>
